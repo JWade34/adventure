@@ -100,7 +100,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#fff;background-color:#fec503}
 @media (min-width:768px){.navbar-default{background-color:transparent;padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s;border:0}
 .navbar-default .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}.navbar-default .navbar-nav>.active>a{border-radius:3px}
-.navbar-default.navbar-shrink{background-color:#222;padding:10px 0}.navbar-default.navbar-shrink .navbar-brand{font-size:1.5em}}
+.navbar-default.navbar-shrink {
+  background-color: red;
+  padding:10px 0
+}
+.navbar-default.navbar-shrink .navbar-brand{font-size:1.5em}}
 
 header{background-image: image-url("header.jpg");
   background-repeat:none;
@@ -163,13 +167,19 @@ section h3.section-subheading{font-size:16px;font-family:"Droid Serif","Helvetic
 .team-member img{margin:0 auto;border:7px solid #fff}
 .team-member h4{margin-top:25px;margin-bottom:0;text-transform:none}
 .team-member p{margin-top:0}aside.clients img{margin:50px auto}
-section#contact{background-color:#222;background-image:url(../img/map-image.png);background-position:center;background-repeat:no-repeat}
+
+section#contact {
+  background-color:#222;
+  background-image: image-url('map-image.png');
+  background-position:center;
+  background-repeat:no-repeat;
+}
 
 section#contact .section-heading{color:#fff}
 section#contact .form-group{margin-bottom:25px}
 section#contact .form-group input,section#contact .form-group textarea{padding:20px}
 section#contact .form-group input.form-control{height:auto}
-section#contact .form-group textarea.form-control{height:236px}
+section#contact .form-group textarea.form-control{height:320px}
 section#contact .form-control:focus{border-color:#fed136;box-shadow:none}
 section#contact ::-webkit-input-placeholder{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;color:#bbb}
 section#contact :-moz-placeholder{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;color:#bbb}
