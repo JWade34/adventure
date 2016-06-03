@@ -65,18 +65,18 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <!-- <li>
+                    <li>
                         <a class="page-scroll" href="#team">Team</a>
-                    </li> -->
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
 
                     <li>
-                        <a href="https://www.instagram.com/adventuremarketing/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/adventuremarketing/" target="_blank"><i class="fa fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/adventureeventsandmarketing"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/adventureeventsandmarketing" target="_blank"><i class="fa fa-facebook"></i></a>
                     </li>
                     <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a>
                     </li> -->
@@ -93,7 +93,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Let's go on an</div>
                 <div class="intro-heading">Adventure together!</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#services" class="page-scroll btn btn-xl">Learn More</a>
             </div>
         </div>
     </header>
@@ -104,18 +104,25 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Let us be your guide on your company's next ADVENTURE!</h3>
+                    <h3 class="section-subheading text-muted">Let us be your guide on your company's next <b>AD</b>VENTURE!</h3>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-image fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Events</h4>
                     <p class="text-muted">Let us manage your event from start to finish.</p>
-                    <p class="text-muted">Create and Manage Budgets, Coordinate with Vendors, Staffing, Set-up & Breakdown, Invitation Management</p>
+                    <ul class="text-muted" style="list-style-type:square; text-align:left;">
+                      <li>Create & Manage Budgets</li>
+                      <li>Coordinate with Vendors</li>
+                      <li>Staffing</li>
+                      <li>Set-up & Breakdown</li>
+                      <li>Invitation Management</li>
+                    </ul>
+                    <!-- <p class="text-muted">Create and Manage Budgets, Coordinate with Vendors, Staffing, Set-up & Breakdown, Invitation Management</p> -->
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -124,16 +131,31 @@
                     </span>
                     <h4 class="service-heading">Social Media</h4>
                     <p class="text-muted">We create and manage your social media presence online.</p>
-                    <p class="text-muted">Facebook, Twitter, Instagram, Snapchat, Yelp</p>
+                    <hr>
+                    <!-- <ul class="text-muted" style="list-style-type:square; text-align:left;">
+                      <li>Facebook</li>
+                      <li>Twitter</li>
+                      <li>Instagram</li>
+                      <li>Snapchat</li>
+                      <li>Yelp</li>
+                    </ul> -->
+                    <p class="text-muted">Facebook | Twitter | Instagram<br>
+                    Snapchat | Yelp</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-camera-retro fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Marketing</h4>
                     <p class="text-muted">Custom Marketing Plans that work for you!</p>
-                    <p class="text-muted">Media buys, Street Teams, Promotional Events, Strategic Partnerships</p>
+                    <ul class="text-muted" style="list-style-type:none; text-align:center;">
+                      <li>Media Buys</li>
+                      <li>Street Teams</li>
+                      <li>Promotional Events</li>
+                      <li>Strategic Partnerships</li>
+                    </ul>
+                    <!-- <p class="text-muted">Media buys, Street Teams, Promotional Events, Strategic Partnerships</p> -->
                 </div>
             </div>
         </div>
@@ -252,7 +274,7 @@
                         <li>
                             <div class="timeline-image">
                                 <!-- <img class="img-circle img-responsive" src="/app/assets/images/about/1.jpg" alt=""> -->
-                                <%=image_tag("1.jpg", class: "img-circle img-responsive") %>
+                                <%=image_tag("sky2.jpg", class: "img-circle img-responsive") %>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -267,7 +289,7 @@
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <!-- <img class="img-circle img-responsive" src="img/about/2.jpg" alt=""> -->
-                                <%=image_tag("2.jpg", class: "img-circle img-responsive") %>
+                                <%=image_tag("fam2.jpg", class: "img-circle img-responsive") %>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -297,7 +319,7 @@
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <!-- <img class="img-circle img-responsive" src="img/about/4.jpg" alt=""> -->
-                                <%=image_tag("4.jpg", class: "img-circle img-responsive") %>
+                                <%=image_tag("cactus2.jpg", class: "img-circle img-responsive") %>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -313,7 +335,7 @@
                             <div class="timeline-image">
                                 <h4>Be Part
                                     <br>Of The
-                                    <br>Adventure!</h4>
+                                    <br><em>AD</em> VENTURE!</h4>
                             </div>
                         </li>
                     </ul>
@@ -339,11 +361,11 @@
                         <h4>Adam Bruchas</h4>
                         <p class="text-muted">Owner</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="https://www.instagram.com/adam1984/"><i class="fa fa-instagram"></i></a>
+                            <li><a href="https://www.instagram.com/adam1984/" target="_blank"><i class="fa fa-instagram"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
                             </li>
-                            <li><a href="https://www.instagram.com/gooutsidetx/"><i class="fa fa-instagram"></i></a>
+                            <li><a href="https://www.instagram.com/gooutsidetx/" target="_blank"><i class="fa fa-instagram"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -355,11 +377,11 @@
                         <h4>Justin McKelvey</h4>
                         <p class="text-muted">Lead Developer</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="https://www.instagram.com/justinmckelvey/"><i class="fa fa-instagram"></i></a>
+                            <li><a href="https://www.instagram.com/justinmckelvey/" target="_blank"><i class="fa fa-instagram"></i></a>
                             </li>
-                            <li><a href="https://medium.com/@justinmckelvey"><i class="fa fa-medium"></i></a>
+                            <li><a href="https://medium.com/@justinmckelvey" target="_blank"><i class="fa fa-medium"></i></a>
                             </li>
-                            <li><a href="https://www.justinmckelvey.com"><i class="fa fa-home"></i></a>
+                            <li><a href="https://www.justinmckelvey.com" target="_blank"><i class="fa fa-home"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -473,9 +495,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="https://www.instagram.com/adventuremarketing/"><i class="fa fa-instagram"></i></a>
+                        <li><a href="https://www.instagram.com/adventuremarketing/" target="_blank"><i class="fa fa-instagram"></i></a>
                         </li>
-                        <li><a href="https://www.facebook.com/adventureeventsandmarketing"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/adventureeventsandmarketing" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                         <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li> -->
@@ -483,7 +505,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="http://www.justinmckelvey.com/">Contact: &copy; BeardBuilder</a>
+                        <li><a href="http://www.justinmckelvey.com/" target="_blank">Contact: &copy; BeardBuilder</a>
                         </li>
                         <!-- <li><a href="#">Terms of Use</a>
                         </li> -->
