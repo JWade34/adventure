@@ -38,7 +38,8 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+      <!-- <div class="container"> -->
+        <div style="padding-left: 2em; padding-right: 2em;">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -47,7 +48,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Adventure Events & Marketing</a>
+                <!-- <a class="navbar-brand" href="#"> -->
+                <a class="navbar-brand page-scroll" href="#page-top">
+                  <%=image_tag("logo-icon.png", style: "height:1.3em; display:inline;", class: "img-responsive") %>
+                  Adventure Events & Marketing
+                </a>
+
+                    <!-- <%=image_tag("logo-icon.png", style: "height:2em;", class: "img-responsive") %> -->
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">Adventure Events & Marketing</a> -->
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -549,6 +557,14 @@
             </div>
         </div>
     </footer>
+
+    <!-- <section>
+    <div class="container">
+        <div class="row img-responsive img-centered">
+          <%= image_tag("logo-large.png") %>
+        </div>
+    </div>
+  </section> -->
 
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
