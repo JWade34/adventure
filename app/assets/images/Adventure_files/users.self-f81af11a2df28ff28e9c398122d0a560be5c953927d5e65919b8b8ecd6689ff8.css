@@ -1,0 +1,926 @@
+/* line 5, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* line 9, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.text-muted {
+  color: #777;
+}
+
+/* line 12, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.text-primary {
+  color: #fed136;
+}
+
+/* line 15, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+/* line 19, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+p.large {
+  font-size: 16px;
+}
+
+/* line 22, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+a, a:hover, a:focus, a:active, a.active {
+  outline: 0;
+}
+
+/* line 25, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+a {
+  color: #fed136;
+}
+
+/* line 28, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+a:hover, a:focus, a:active, a.active {
+  color: #fec503;
+}
+
+/* line 31, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 36, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.img-centered {
+  margin: 0 auto;
+}
+
+/* line 39, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+/* line 42, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.bg-darkest-gray {
+  background-color: #222;
+}
+
+/* line 45, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-primary {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 53, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+/* line 58, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+/* line 61, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active,
+.btn-primary[disabled].active, fieldset[disabled]
+.btn-primary.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+/* line 67, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-primary .badge {
+  color: #fed136;
+  background-color: #fff;
+}
+
+/* line 71, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-xl {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+/* line 82, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+/* line 84, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+
+/* line 86, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active,
+.btn-xl[disabled].active, fieldset[disabled]
+.btn-xl.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+/* line 89, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn-xl .badge {
+  color: #fed136;
+  background-color: #fff;
+}
+
+/* line 90, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default {
+  background-color: #222;
+  border-color: transparent;
+}
+
+/* line 91, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+/* line 92, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
+  color: #fec503;
+}
+
+/* line 93, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+/* line 94, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
+/* line 95, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* line 96, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fed136;
+}
+
+/* line 97, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .nav li a {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+/* line 98, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+  color: #fed136;
+  outline: 0;
+}
+
+/* line 99, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #fff;
+  background-color: #fed136;
+}
+
+/* line 100, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #fec503;
+}
+
+@media (min-width: 768px) {
+  /* line 101, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .navbar-default {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: 0;
+  }
+
+  /* line 102, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .navbar-default .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+
+  /* line 102, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+
+  /* line 103, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .navbar-default.navbar-shrink {
+    background-color: red;
+    padding: 10px 0;
+  }
+
+  /* line 107, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+/* line 109, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+header {
+  background-image: url(/assets/header-ce5df0de18b4987b72cca899a12e3b8fc711720477212feb0615134c2a7ef35b.jpg);
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 114, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* line 115, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+/* line 116, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+header .intro-text .intro-heading {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  /* line 117, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+
+  /* line 118, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  /* line 119, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  header .intro-text .intro-heading {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+/* line 120, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section {
+  padding: 100px 0;
+}
+
+/* line 120, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* line 121, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+  /* line 122, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  section {
+    padding: 150px 0;
+  }
+}
+/* line 122, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+/* line 123, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+
+/* line 124, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* line 125, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(254, 209, 54, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+}
+
+/* line 126, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+/* line 126, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+
+/* line 127, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+/* line 127, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+/* line 128, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+/* line 129, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+
+/* line 130, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* line 131, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+#portfolio * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  /* line 132, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+/* line 133, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+/* line 134, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #f1f1f1;
+  left: 40px;
+  margin-left: -1.5px;
+}
+
+/* line 135, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
+}
+
+/* line 136, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li:before, .timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+/* line 137, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li:after {
+  clear: both;
+}
+
+/* line 138, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+}
+
+/* line 139, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+/* line 140, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+/* line 141, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: #fed136;
+  color: #fff;
+  border-radius: 100%;
+  border: 7px solid #f1f1f1;
+  text-align: center;
+}
+
+/* line 142, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+
+/* line 143, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+
+/* line 144, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+/* line 145, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+/* line 146, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 147, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+/* line 148, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+
+/* line 149, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.timeline .timeline-body > p, .timeline .timeline-body > ul {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 150, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline:before {
+    left: 50%;
+  }
+
+  /* line 151, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
+
+  /* line 152, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+
+  /* line 153, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+
+  /* line 154, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
+
+  /* line 155, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 156, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li {
+    min-height: 150px;
+  }
+
+  /* line 157, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+
+  /* line 158, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+
+  /* line 159, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+
+  /* line 160, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 161, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li {
+    min-height: 170px;
+  }
+
+  /* line 162, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+
+  /* line 163, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+
+  /* line 164, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+
+  /* line 165, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+/* line 166, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 167, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid #fff;
+}
+
+/* line 168, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+/* line 169, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.team-member p {
+  margin-top: 0;
+}
+
+/* line 169, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+aside.clients img {
+  margin: 50px auto;
+}
+
+/* line 171, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact {
+  background-color: #222;
+  background-image: url(/assets/map-image-ac8a5781cfbd97db15820eef8e6f9e41d80930d1d91f383bba1f17c8c57a6b88.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 178, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact .section-heading {
+  color: #fff;
+}
+
+/* line 179, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+/* line 180, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact .form-group input, section#contact .form-group textarea {
+  padding: 20px;
+}
+
+/* line 181, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+/* line 182, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact .form-group textarea.form-control {
+  height: 320px;
+}
+
+/* line 183, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+/* line 184, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact ::-webkit-input-placeholder {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb;
+}
+
+/* line 185, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact :-moz-placeholder {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb;
+}
+
+/* line 186, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact ::-moz-placeholder {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb;
+}
+
+/* line 187, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact :-ms-input-placeholder {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb;
+}
+
+/* line 188, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+section#contact .text-danger {
+  color: #e74c3c;
+}
+
+/* line 190, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+/* line 191, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+footer span.copyright {
+  line-height: 40px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
+/* line 192, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
+/* line 193, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+/* line 194, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+ul.social-buttons li a {
+  display: block;
+  background-color: #222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+/* line 195, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+
+/* line 196, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+  outline: 0;
+}
+
+/* line 197, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* line 198, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+
+/* line 199, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+
+/* line 200, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* line 201, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+/* line 202, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+
+/* line 202, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+/* line 203, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .close-modal:hover {
+  opacity: .3;
+}
+
+/* line 204, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  z-index: 1051;
+}
+
+/* line 205, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  z-index: 1052;
+}
+
+/* line 206, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+
+/* line 206, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+
+/* line 206, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+::selection {
+  text-shadow: none;
+  background: #fed136;
+}
+
+/* line 206, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+img::selection {
+  background: 0 0;
+}
+
+/* line 206, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+img::-moz-selection {
+  background: 0 0;
+}
+
+/* line 206, /Users/McKelv1n/Desktop/projects/adventure/app/assets/stylesheets/users.scss */
+body {
+  webkit-tap-highlight-color: #fed136;
+}

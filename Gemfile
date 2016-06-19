@@ -34,6 +34,7 @@ gem "font-awesome-rails"
 gem 'simple_form'
 gem 'pry'
 gem 'puma'
+gem "figaro"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
