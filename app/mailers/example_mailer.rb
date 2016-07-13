@@ -8,7 +8,7 @@ class ExampleMailer < ActionMailer::Base
 
   def contact_us(user)
     @user = user
-    mail(to: 'justinwmckelvey@gmail.com', subject: 'A New Contact Form has been submitted')
+    mail(to: 'adam@adventuremarketing.org', subject: 'A New Contact Form has been submitted')
   end
 
 end
